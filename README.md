@@ -11,8 +11,7 @@ Implement a method `checkout` to calculate total cost of a cart of items and app
 
 The cart starts as an array of individual items. Translate it into a hash that includes the counts for each item with the `consolidate_cart` method.
 
-For instance, if the method is given the array below:
-
+For instance, if the method is given the array below
 ```ruby
 [
   {"AVOCADO" => {:price => 3.0, :clearance => true }},
